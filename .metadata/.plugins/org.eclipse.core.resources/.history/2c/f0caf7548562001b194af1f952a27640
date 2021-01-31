@@ -1,0 +1,19 @@
+package fundamentos.operadores;
+
+public class DesafioLogicos {
+	
+	public static void main(String[] args) {
+		//trabalho na terça (V ou F)
+		//trabalho na quinta (V ou F)
+		
+		boolean trabalhoTerca = true;
+		boolean trabalhoQuinta = true;
+		
+		boolean comprouTv50 = trabalhoTerca && trabalhoQuinta;
+		boolean comprouTv32 = trabalhoTerca ^ trabalhoQuinta;
+		
+		System.out.println("Compraremos TV 50\"? " + comprouTv50);
+		System.out.println("Compraremos TV 32\"? " + comprouTv32);
+	}
+
+}

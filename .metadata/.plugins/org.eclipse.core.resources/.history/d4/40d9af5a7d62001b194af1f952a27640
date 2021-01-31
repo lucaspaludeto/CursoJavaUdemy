@@ -1,0 +1,23 @@
+package fundamentos;
+
+public class DesafioAritmeticos {
+	
+	public static void main(String[] args) {
+		
+		int a = 1;
+		int b = 2;
+		int c = 3;
+		int d = 5;
+		int e = 6;
+		int f = 7;
+		int g = 10;
+		
+		double equacao1 = (e * (c + b));
+		double equacao2 = (Math.pow(equacao1, 2) / (c * b));
+		
+		double equacao3 = ((a - b) * (b - f) / (b));
+		//double equacao3 = 
+				System.out.println(equacao3);
+	}
+
+}

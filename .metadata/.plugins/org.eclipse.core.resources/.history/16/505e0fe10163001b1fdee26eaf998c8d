@@ -1,0 +1,15 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(Sytem.in);
+		
+		System.out.println("Digite o valor da nota: ");
+		double nota = entrada.nextDouble();
+	}
+
+}

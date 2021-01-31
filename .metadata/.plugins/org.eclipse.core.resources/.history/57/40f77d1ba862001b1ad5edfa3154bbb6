@@ -1,0 +1,30 @@
+package fundamentos.operadores;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioCalculadora {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Informe o número: ");
+		double num1 = entrada.nextDouble();
+		
+		System.out.print("Informe o número: ");
+		double num2 = entrada.nextDouble();
+		
+		System.out.println("Informe a operação");
+		String op = entrada.next();
+		
+		System.out.printf("%f.2 %s %f.2 = ?", num1, op, num2);
+		
+		entrada.close();
+		
+		
+		
+	}
+
+}

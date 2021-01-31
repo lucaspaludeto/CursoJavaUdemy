@@ -1,0 +1,7 @@
+package fundamentos;
+
+public class ConversaoNumeroString {
+	Integer num1 = 10000;
+	System.out.println(num1.toString().length());
+
+}

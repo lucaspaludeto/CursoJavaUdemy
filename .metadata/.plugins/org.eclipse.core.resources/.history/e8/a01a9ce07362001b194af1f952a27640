@@ -1,0 +1,21 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+		Scanner salario = new Scanner(System.in);
+		
+		System.out.print("Digite o salário do mês 1: ");
+		String mes1 = salario.nextLine();
+		
+		System.out.print("Digite o salário do mês 2: ");
+		String mes2 = salario.nextLine();
+		
+		System.out.print("Digite o salário do mês 3: ");
+		String mes3 = salario.nextLine();
+	}
+
+}

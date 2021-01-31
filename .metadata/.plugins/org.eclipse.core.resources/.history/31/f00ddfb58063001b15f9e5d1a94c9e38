@@ -1,0 +1,20 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class exercicio {
+	
+	public static void main(String[] args) {
+		
+		double[] NotasAlunosA = new double[3];
+		System.out.println(Arrays.toString(NotasAlunosA));
+		
+		NotasAlunosA [0] = 7.9;
+		NotasAlunosA [1] = 8;
+		NotasAlunosA [2] = 6.7;
+		
+		System.out.println(Arrays.toString(NotasAlunosA));
+		
+	}
+
+}

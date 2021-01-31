@@ -1,0 +1,22 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioSemana {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner();
+		
+		System.out.println("Digite o dia da semana: ");
+		String dia = entrada.next();
+		
+		if(dia.equals("Domingo")) {
+			System.out.println("1");
+		}
+		
+		entrada.close();
+		
+	}
+
+}

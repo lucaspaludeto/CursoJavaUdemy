@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Matriz {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Quantidade de Alunos: ");
+		int qtdeAlunos = entrada.nextInt();	
+		
+		System.out.println("Quantidade de notas por aluno: ");
+		int qtdeNotas = entrada.nextInt();
+		
+		entrada.close();
+	}
+
+}

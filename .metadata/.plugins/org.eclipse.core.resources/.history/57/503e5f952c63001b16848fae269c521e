@@ -1,0 +1,49 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa("João", 12);
+		Pessoa p2 = new Pessoa("Leandro", 21);
+		Pessoa p3 = new Pessoa("Paulo", 17);
+		Pessoa p4 = new Pessoa("Jessica", 40);
+		
+		List<Pessoa> pessoa = new ArrayList<>();
+		pessoa.add(p1);
+		pessoa.add(p2);
+		pessoa.add(p3);
+		pessoa.add(p4);
+
+		
+		
+		
+			int _maisVelha = 0;
+			String nome = "";
+			
+			for (int i=0; i < pessoa.size(); i++) {
+				if(_maisVelha < pessoa.get(i).getIdade()) {
+					_maisVelha = pessoa.get(i).getIdade();
+					nome = pessoa.get(i).getNome();
+				}
+			}
+			System.out.println("O nome da pessoa mais velha é: " + nome);
+			
+			System.out.println("A lista possui " + pessoa.size() + " pessoas antes de excluir todos com menos de 18 anos: ");
+			
+			for (int i=0; i < pessoa.size(); i++) {
+				if(pessoa.get(i).getIdade() < 18) {
+					pessoa.remove(pessoa.get(i));		
+				}
+			}
+			
+			System.out.println("A lista possui " + pessoa.size() + " após a exclusão de todos com menos de 18 anos: ");
+			
+			for (int i=0; i < pessoa.size(); i++) {
+				if(pessoa.get(i).getNome() == "Jessica") {
+					System.out.println("A " + pessoa.get(i).getNome() +  " existe na lista e tem: " + pessoa.get(i).getIdade() + " anos");	
+				}
+			}
+	}
+
+}

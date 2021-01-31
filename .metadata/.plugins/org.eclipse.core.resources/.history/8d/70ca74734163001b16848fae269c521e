@@ -1,0 +1,12 @@
+package classe;
+
+public class Data {
+	int dia;
+	String mes;
+	int ano;
+	
+	String obterDataFormadata() {
+		return  String.format("%d de %s de %d", dia, mes, ano);
+	}
+
+}

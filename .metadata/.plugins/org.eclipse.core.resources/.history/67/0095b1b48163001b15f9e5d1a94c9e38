@@ -1,0 +1,28 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class exercicio {
+	
+	public static void main(String[] args) {
+		
+		double[] NotasAlunosA = new double[4];
+		System.out.println(Arrays.toString(NotasAlunosA));
+		
+		NotasAlunosA [0] = 7.9;
+		NotasAlunosA [1] = 8;
+		NotasAlunosA [2] = 6.7;
+		NotasAlunosA [3] = 9.7;
+		
+		System.out.println(Arrays.toString(NotasAlunosA));
+		
+		double total = 0;
+		for (int i = 0; i < NotasAlunosA.length; i++) {
+			total += NotasAlunosA[i];		
+		}
+		
+		System.out.println(total / NotasAlunosA.length);
+		
+	}
+
+}
